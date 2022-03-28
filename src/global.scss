@@ -1,0 +1,44 @@
+
+body,html{
+    height: 100%;
+}
+body{
+    font-family: 'inter';
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 14px;
+}
+
+button{
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    padding: 0px;
+}
+img{
+    display: block;
+    max-width: 100%;
+}
+ul{
+list-style: none;
+padding: 0px;
+margin: 0px;
+}
+
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+}
+.wrapper{
+    overflow: hidden;
+    min-height: 100%;
+    position: relative;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
