@@ -1,2 +1,2 @@
 
-export { default as feeds } from './feeds.vue'
+export { default as feedsItem } from './feeds-item'

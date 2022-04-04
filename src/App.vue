@@ -1,14 +1,14 @@
 <template>
-<feeds />
+<feedsItem />
 </template>
 
 <script>
-import { feeds } from './pages/feeds'
+import { feedsItem } from './pages/feeds'
 
 export default {
   name: 'App',
   components: {
-    feeds
+    feedsItem
   }
 }
 </script>
