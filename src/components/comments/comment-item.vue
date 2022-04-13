@@ -7,7 +7,7 @@
 </template>
 <script>
 export default {
-  name: 'Comment',
+  name: 'Comment-item',
   props: {
     username: {
       type: String,
