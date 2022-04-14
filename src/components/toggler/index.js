@@ -1,1 +1,1 @@
-export { default as togglerItem } from './toggler-item.vue'
+export { default as togglerItem } from '@/components/toggler/toggler-item'

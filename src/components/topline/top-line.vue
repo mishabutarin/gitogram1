@@ -10,6 +10,6 @@
   </div>
 </div>
 </template>
-<style lang= "scss" src= './topline.scss' scoped>
+<style lang= "scss" src= '@/components/topline/topline.scss' scoped>
 
 </style>

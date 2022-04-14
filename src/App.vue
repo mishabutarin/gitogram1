@@ -3,7 +3,7 @@
 </template>
 
 <script>
-import { feedsItem } from './pages/feeds'
+import { feedsItem } from '@/pages/feeds'
 
 export default {
   name: 'App',
@@ -13,4 +13,4 @@ export default {
 }
 </script>
 
-<style src= "./global.scss" lang = "scss"> </style>
+<style src= "@/global.scss" lang = "scss"> </style>

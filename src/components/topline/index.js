@@ -1,1 +1,1 @@
-export { default as topLine } from './top-line'
+export { default as topLine } from '@/components/topline/top-line'

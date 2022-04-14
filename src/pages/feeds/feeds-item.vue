@@ -45,11 +45,11 @@
 </template>
 <script>
 import StoryUserItem from '@/components/storyUserItem/story-UserItem.vue'
-import { topLine } from '../../components/topline'
-import { iconComponent } from '../../icons'
-import stories from './data.json'
+import { topLine } from '@/components/topline'
+import { iconComponent } from '@/icons'
+import stories from '@/data.json'
 import TogglerItem from '@/components/toggler/toggler-item.vue'
-import commentItem from '../../components/comments/comment-item.vue'
+import commentItem from '@/components/comments/comment-item.vue'
 export default {
   name: 'feedsItem',
   components: {
@@ -66,5 +66,5 @@ export default {
   }
 }
 </script>
-<style lang= 'scss' scoped src='./feeds.scss'>
+<style lang= 'scss' scoped src='@/components/pages/feeds/feeds.scss'>
 </style>
