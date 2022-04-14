@@ -2,7 +2,7 @@
 <component :is="name"/>
 </template>
 <script>
-import * as icons from '@icons/variants'
+import * as icons from '@/icons/variants'
 export default {
   name: 'iconComponent',
   components: { ...icons },

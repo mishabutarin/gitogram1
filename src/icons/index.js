@@ -1,1 +1,1 @@
-export { default as iconComponent } from '@/components/icon-copmonent.vue'
+export { default as iconComponent } from '@/icons/icon-copmonent.vue'
