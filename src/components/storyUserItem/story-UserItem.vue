@@ -5,9 +5,16 @@
 </div>
 <div class="username">{{username}}</div>
   </button>
+  <slider-user-story ref="modal" :showStories='showStories' @close='closeModal()'></slider-user-story>
 </template>
 <script>
+import { SliderUserStory } from '@/components/sliderUserStory/sliderUserStory.vue'
 export default {
+  name: 'StoryUserItem',
+  template: 'StoryUserItem',
+  components: {
+    SliderUserStory
+  },
   props: {
     avatar: {
       type: String,

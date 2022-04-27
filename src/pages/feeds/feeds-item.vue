@@ -44,6 +44,7 @@
   </div>
 </template>
 <script>
+import * as api from '@/api'
 import StoryUserItem from '@/components/storyUserItem/story-UserItem.vue'
 import { topLine } from '@/components/topline'
 import { iconComponent } from '@/icons'
@@ -63,6 +64,9 @@ export default {
     return {
       stories
     }
+  },
+  created () {
+    api.trandings.getTrendings()
   }
 }
 </script>
